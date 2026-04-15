@@ -1,6 +1,11 @@
 from dataclasses import dataclass
 from typing import Optional
-from typing import TypeAlias
+from typing import *
+import sys
+import unittest
+import math
+
+sys.setrecursionlimit(10**6)
 
 
 # Data Classes
